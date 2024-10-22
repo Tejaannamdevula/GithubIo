@@ -19,7 +19,7 @@ const ProfileSearch = ({ handleSearch }) => {
       <input
         type="text"
         placeholder="Search by name..."
-        value={searchQuery} // Controlled input
+        value={searchQuery}
         onChange={handleInputChange}
       />
       <button type="submit">Search</button>
